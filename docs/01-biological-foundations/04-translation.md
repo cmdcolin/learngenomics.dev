@@ -1,3 +1,5 @@
+import Figure from '../figure'
+
 # Translation
 
 ## Decoding the Transcript
@@ -8,7 +10,7 @@ is universally preserved across organisms. So you, your dog, and the lettuce in 
 salad all read and translate the genetic code the same. This helps scientists determine
 which changes in a gene have functional consequences by comparing transcripts from
 different species. Further, the universality of this code makes modeling genetic
-diseases in animals—such as grafting cancer onto a mouse, known as a 
+diseases in animals—such as grafting cancer onto a mouse, known as a
 **xenograft**—informative.
 
 :::info
@@ -18,13 +20,13 @@ transcript, the DNA base thymine (T) is substituted by uracil (U). Thus, for all
 figures referencing mRNA, we will use U in the place of T.
 :::
 
-![Figure showing translation from mRNA to a protein](../images/1.4-mRNA-to-Protein.jpg)
+<Figure caption="Figure showing translation from mRNA to a protein" src="/img/1.4-mRNA-to-Protein.jpg"/>
 
 The mRNA transcript is encoded in three-letter nucleotide blocks known as **codons**.
 Codons specify that a particular protein building block, or **amino acid**, should be
 added to a growing protein chain. For example, the mRNA sequence above has "CCU" in the
 second codon position. This codon instructs the protein assembling machinery of the cell
-to add a Proline to the amino acid sequence at position two. 
+to add a Proline to the amino acid sequence at position two.
 
 As shown in the amino acid lookup table below, other codons specify that translation
 should start or stop at a particular position. Further, multiple triplets translate to
@@ -38,16 +40,16 @@ the mRNA sequence can have on the final protein byproduct, ranging from insignif
 deleterious. Knowledge of the codons and chemistry of proteins are used to predict
 the effect of a given variant on the resulting protein.
 
-![Codon lookup table from mRNA nucleotide triplet](../images/1.5-codon-lookup-table.jpg)
+<Figure caption="Codon lookup table from mRNA nucleotide triplet" src="/img/1.5-codon-lookup-table.jpg"/>
 
 ## Reading Frames
 
 Of course, any time you are decoding one alphabet into another, the accuracy of the
 process depends on your starting in the correct location. The three-letter code, and
 the resulting protein, will be completely different if translation starts on the first,
-second or third nucleotide. 
+second or third nucleotide.
 
-![Demonstration of the affect of reading frames on translation](../images/1.6-reading-frames.jpg)
+<Figure caption="Demonstration of the affect of reading frames on translation" src="/img/1.6-reading-frames.jpg"/>
 
 Consider the sequence in the figure above (a contrived example, but useful for our
 illustration here). If translation starts correctly at the first nucleotide, then the
